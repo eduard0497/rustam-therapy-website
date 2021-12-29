@@ -1,13 +1,43 @@
+:root {
+  --web_background_color: #003b94;
+  --border_radius: 5px;
+  /*  */
+  --call_button_background: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  --call_button_text_color: rgb(5, 0, 73);
+  /*  */
+  --top_banner_back_color: #2ab1ff;
+  --second_banner_back_color: #436fff;
+  /*  */
+  --services_card_title_color: #436fff;
+  --services_card_details_color: #4867ce;
+  --services_card_border_color: #4867ce;
+  /*  */
+  --directory_container_background_color: #003b94;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: #eeeeee;
+  overflow-x: hidden;
+  /* padding-bottom: 200px; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }

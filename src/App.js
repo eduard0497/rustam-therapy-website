@@ -1,10 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CallButton from "./comps/CallButton";
+import Directory from "./comps/Directory";
+import SecondBanner from "./comps/SecondBanner";
+import Services from "./comps/Services";
+import TopBanner from "./comps/TopBanner";
 
 function App() {
   return (
-    <div className="App">
-      <h1>title here</h1>
+    <div className="app_container">
+      <CallButton />
+      <TopBanner />
+      <SecondBanner />
+      <Services />
+      <Directory />
     </div>
   );
 }

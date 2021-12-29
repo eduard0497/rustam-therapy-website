@@ -1,0 +1,38 @@
+.directory_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  background: var(--directory_container_background_color);
+  transition: 1s all ease-in;
+}
+
+.directory_logo_container {
+  padding: 15px;
+}
+.directory_logo_container_inner {
+  text-align: center;
+}
+.directory_details_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 930px) {
+  .directory_container {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 771px) {
+  .directory_container {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .directory_container {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

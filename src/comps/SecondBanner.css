@@ -1,0 +1,105 @@
+.second_banner {
+  width: 100vw;
+  height: auto;
+  background-color: var(--second_banner_back_color);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  padding: 30px;
+  transition: 1s all ease-in;
+}
+
+.second_banner_image_container {
+  flex: 0.45;
+  transition: 1s all ease-in;
+}
+.second_banner_text_container {
+  transition: 1s all ease-in;
+  flex: 0.45;
+  padding: 20px 20px;
+}
+
+.second_banner_image_container > img {
+  width: 100%;
+  border-radius: var(--border_radius);
+  transition: transform 1s ease-in;
+}
+.second_banner_image_container > img:hover {
+  transform: scale(1.05);
+}
+
+.second_banner_text_container_card {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 40px;
+  border-radius: var(--border_radius);
+}
+.second_banner_text_container_card > h2 {
+  font-size: 17px;
+  line-height: 40px;
+  color: var(--call_button_text_color);
+}
+
+@media screen and (max-width: 1334px) {
+  .second_banner {
+    padding-top: 70px;
+  }
+}
+@media screen and (max-width: 1184px) {
+  .second_banner_image_container {
+    flex: 0.6;
+  }
+}
+@media screen and (max-width: 1056px) {
+  .second_banner_text_container_card > h2 {
+    font-size: 14px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 951px) {
+  .second_banner {
+    padding: 60px 15px 20px 15px;
+  }
+  .second_banner_text_container {
+    padding: 10px 10px;
+  }
+}
+@media screen and (max-width: 951px) {
+  .second_banner_text_container_card > h2 {
+    font-size: 10px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .second_banner {
+    padding: 25px 15px 20px 15px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .second_banner_text_container_card > h2 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 653px) {
+  .second_banner_text_container_card {
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .second_banner {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .second_banner_text_container {
+    padding: 0;
+  }
+  .second_banner_text_container_card {
+    padding: 5px;
+  }
+}

@@ -1,6 +1,7 @@
 :root {
-  --web_background_color: #003b94;
+  --web_background_color: #5680E9;
   --border_radius: 5px;
+  --web_title_color: purple;
   /*  */
   --call_button_background: radial-gradient(
     100% 100% at 100% 0,
@@ -9,14 +10,19 @@
   );
   --call_button_text_color: rgb(5, 0, 73);
   /*  */
-  --top_banner_back_color: #2ab1ff;
-  --second_banner_back_color: #436fff;
+  --top_banner_back_color: #5680E9;
+  --top_banner_text_color: #5AB9EA;
+  --second_banner_back_color: #5680E9;
+  --second_banner_text_color: #5AB9EA;
   /*  */
-  --services_card_title_color: #436fff;
-  --services_card_details_color: #4867ce;
-  --services_card_border_color: #4867ce;
+  --services_container_back_color: #5680E9;
+  --services_card_title_color: #003b94;
+  --services_card_details_color: #5AB9EA;
+  --services_card_border_color: #5AB9EA;
   /*  */
   --directory_container_background_color: #003b94;
+  --directory_container_text_color: #5680E9;
+
 }
 
 body {

@@ -41,7 +41,7 @@
 .top_banner_text_container_card > h2 {
   font-size: 20px;
   line-height: 40px;
-  color: var(--call_button_text_color);
+  color: var(--top_banner_text_color);
 }
 
 @media screen and (max-width: 1334px) {

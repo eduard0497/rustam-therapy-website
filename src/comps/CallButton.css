@@ -41,7 +41,7 @@
 .desktop_call_button:hover {
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
-  transform: translateY(-2px);
+  transform: translateY(-5px);
 }
 
 .desktop_call_button:active {
@@ -57,5 +57,12 @@
     left: 50%;
     transform: translateX(-50%);
     /* transform: translateY(-50%); */
+  }
+  .desktop_call_button:hover {
+    transform: translateX(-50%);
+  }
+  
+  .desktop_call_button:active {
+    transform: translateX(-50%);
   }
 }

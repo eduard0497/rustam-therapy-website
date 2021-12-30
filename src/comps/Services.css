@@ -2,12 +2,12 @@
   width: 100%;
   height: auto;
   padding: 30px;
-  background: lightcoral;
+  background: var(--services_container_back_color);
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .services_container_item_card {
@@ -24,11 +24,28 @@
   cursor: pointer;
 }
 .services_container_item_card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .services_container_item_card > h2 {
   color: var(--services_card_title_color);
+  font-weight: bolder;
 }
 .services_container_item_card > h4 {
   color: var(--services_card_details_color);
+}
+
+@media screen and (max-width: 608px) {
+  .services_container_item_card {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 458px) {
+  .services_container_item_card {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 424px) {
+  .services_container_item_card {
+    width: 100%;
+  }
 }

@@ -5,6 +5,7 @@
   padding: 50px;
   background: var(--directory_container_background_color);
   transition: 1s all ease-in;
+  color: var(--directory_container_text_color);
 }
 
 .directory_logo_container {
@@ -34,5 +35,10 @@
   .directory_container {
     flex-direction: column;
     gap: 15px;
+  }
+}
+@media screen and (max-width: 352px) {
+  .directory_details_container {
+    font-size: 10px
   }
 }

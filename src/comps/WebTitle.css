@@ -1,39 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
-
 .web_title_container {
-	height: 90px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Waterfall', cursive;
-	font-size: 30px;
-	color: var(--web_title_color);
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: var(--web_title_color);
 }
 
 @media screen and (max-width: 885px) {
-	.web_title_container {
-		padding-left: 15px;
-		justify-content: flex-start;
-	}
+  .web_title_container {
+    padding-left: 15px;
+    justify-content: flex-start;
+  }
 }
 @media screen and (max-width: 768px) {
-	.web_title_container {
-		padding-left: none;
-		justify-content: center;
-	}
+  .web_title_container {
+    padding-left: none;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 572px) {
-	.web_title_container {
-		font-size: 25px;
-	}
+  .web_title_container {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 475px) {
-	.web_title_container {
-		font-size: 20px;
-	}
+  .web_title_container {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 386px) {
-	.web_title_container {
-		font-size: 15px;
-	}
+  .web_title_container {
+    font-size: 15px;
+  }
 }

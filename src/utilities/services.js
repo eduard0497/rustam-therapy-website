@@ -37,3 +37,29 @@ export const allServices = [
       "The Certified Home Health Aide Provides personal care and related services in the home; helps maintain good personal hygiene; assists in maintaining a healthy and safe environment: plans/prepares nutritious meals. needed; assists the client with ambulation; and assist the therapist with rehabilitative processes.",
   },
 ];
+
+export const allServicesWithPoints = [
+  {
+    id: 1,
+    title: "Who needs Home Health Serices?",
+    detail: [
+      "Patients who need short-term skilled medical care after returning home from the hospital.",
+      "Terminally and chronically ill and disabled patients who elect to receive aggressive treatments at home in lieu of hospitalization.",
+      "Older adults who need skilled medical and physical assistance due to illness or disability.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Skilled Nursing Services include:",
+    detail: [
+      "I.V. Fluids and Antibiotic Treatment via Peripheral Line, PICC Line and other Central lines",
+      "Catheter Care",
+      "Diabetic Teaching and Insulin Administration",
+      "Wound Care",
+      "Supervision and Administration of other Treatments/Injections",
+      "Drawing Blood and Lab Works",
+      "Supply",
+      "COVID-19 Test",
+    ],
+  },
+];

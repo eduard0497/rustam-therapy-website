@@ -1,0 +1,38 @@
+.services_with_points_container {
+  margin: 30px 0px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-around;
+  transition: 0.5s all ease-in;
+}
+
+.services_with_points_container_card {
+  padding: 35px;
+  max-width: 500px;
+  border: 1px solid var(--services_card_border_color);
+  border-radius: var(--border_radius);
+  transition: 0.5s all ease-in;
+  cursor: pointer;
+}
+.services_with_points_container_card:hover {
+  transform: scale(1.05);
+}
+.services_with_points_container_card > h1 {
+  color: var(--services_card_title_color);
+  font-weight: bolder;
+}
+
+.services_with_points_container_card_details_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.services_with_points_container_card_details_container_row {
+  font-weight: bolder;
+  color: var(--services_card_details_color);
+}

@@ -18,11 +18,16 @@
   cursor: pointer;
 }
 .services_with_points_container_card:hover {
+  background: var(--services_card_details_color);
   transform: scale(1.05);
 }
 .services_with_points_container_card > h1 {
   color: var(--services_card_title_color);
   font-weight: bolder;
+}
+.services_with_points_container_card > ul > li {
+  transition: 0.5s all ease-in;
+
 }
 
 .services_with_points_container_card_details_container {
@@ -35,4 +40,9 @@
 .services_with_points_container_card_details_container_row {
   font-weight: bolder;
   color: var(--services_card_details_color);
+}
+.services_with_points_container_card:hover > ul > li {
+  transform: scale(1.05);
+
+  color: var(--services_card_title_color);
 }

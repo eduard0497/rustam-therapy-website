@@ -23,15 +23,21 @@
   transition: 0.5s all ease-in;
   cursor: pointer;
 }
-.services_container_item_card:hover {
-  transform: scale(1.05);
-}
+
 .services_container_item_card > h2 {
   color: var(--services_card_title_color);
   font-weight: bolder;
 }
 .services_container_item_card > h4 {
   color: var(--services_card_details_color);
+  transition: 0.5s all ease-in;
+}
+.services_container_item_card:hover {
+  background: var(--services_card_details_color);
+  transform: scale(1.05);
+}
+.services_container_item_card:hover > h4 {
+  color: var(--services_card_title_color);
 }
 
 @media screen and (max-width: 608px) {

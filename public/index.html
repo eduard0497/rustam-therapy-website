@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" / >
+    <title>Brand Home Health Care, Inc</title>
+    <meta
+      name="description"
+      content="At Brand Home Health Care our Mission is to maintain and realize the full potential of human life by delivering quality medical, nursing, and supportive care to individuals and their tamilies who require extended care at home."
+    />
     <link rel="icon" href="%PUBLIC_URL%/symbol.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -13,13 +18,21 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <title>Brand Home Health Care, Inc</title>
-    <meta
-      name="description"
-      content="At Brand Home Health Care our Mission is to maintain and realize the full potential of human life by delivering quality medical, nursing, and supportive care to individuals and their tamilies who require extended care at home."
-    />
+    <script id="data" type="application/json">
+          {
+            "title": "Brand Home Health Care",
+            "comments": [
+              "Brand Home Health Care",
+              "At Brand Home Health Care our Mission is to maintain and realize the full potential of human life by delivering quality medical, nursing, and supportive care to individuals and their tamilies who require extended care at home."
+            ]
+          }
+      var data = JSON.parse(document.getElementById("data").innerHTML);
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div>
+      <div id="data"></div>
+      <div id="root"></div>
+    </div>
   </body>
 </html>

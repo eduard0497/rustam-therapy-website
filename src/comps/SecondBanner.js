@@ -5,7 +5,7 @@ function SecondBanner() {
   return (
     <div className="second_banner">
       <div className="second_banner_image_container">
-        <img src="/images/second_banner_image.jpg" alt="image here" />
+        <img src="/images/second_banner_image.jpg" alt="CoupleView" />
       </div>
       <div className="second_banner_text_container">
         <div className="second_banner_text_container_card">

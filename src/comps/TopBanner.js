@@ -5,7 +5,7 @@ function TopBanner() {
   return (
     <div className="top_banner">
       <div className="top_banner_image_container">
-        <img src="/images/banner_image.jpg" alt="image here" />
+        <img src="/images/banner_image.jpg" alt="HappyFamily" />
       </div>
       <div className="top_banner_text_container">
         <div className="top_banner_text_container_card">
